@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A7ECAF02716AE9E00F627DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ECAEF2716AE9E00F627DC /* AppDelegate.swift */; };
+		3A7ECAF22716AE9E00F627DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ECAF12716AE9E00F627DC /* SceneDelegate.swift */; };
+		3A7ECAF42716AE9E00F627DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ECAF32716AE9E00F627DC /* ViewController.swift */; };
+		3A7ECAF72716AE9E00F627DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ECAF52716AE9E00F627DC /* Main.storyboard */; };
+		3A7ECAF92716AEA000F627DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ECAF82716AEA000F627DC /* Assets.xcassets */; };
+		3A7ECAFC2716AEA000F627DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ECAFA2716AEA000F627DC /* LaunchScreen.storyboard */; };
+		3A7ECB042716BF4C00F627DC /* OpenWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ECB032716BF4C00F627DC /* OpenWeatherData.swift */; };
+		3A91AED6272294FF0004ADBA /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91AED5272294FF0004ADBA /* CustomAnnotationView.swift */; };
+		3A99A51A272BD307003849A5 /* MKMapView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99A519272BD307003849A5 /* MKMapView+Extention.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A7ECAEC2716AE9E00F627DC /* mapPinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapPinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7ECAEF2716AE9E00F627DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A7ECAF12716AE9E00F627DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A7ECAF32716AE9E00F627DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A7ECAF62716AE9E00F627DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A7ECAF82716AEA000F627DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A7ECAFB2716AEA000F627DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A7ECAFD2716AEA000F627DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7ECB032716BF4C00F627DC /* OpenWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherData.swift; sourceTree = "<group>"; };
+		3A91AED5272294FF0004ADBA /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		3A99A519272BD307003849A5 /* MKMapView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapView+Extention.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A7ECAE92716AE9E00F627DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A7ECAE32716AE9D00F627DC = {
+			isa = PBXGroup;
+			children = (
+				3A7ECAEE2716AE9E00F627DC /* mapPinTest */,
+				3A7ECAED2716AE9E00F627DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A7ECAED2716AE9E00F627DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ECAEC2716AE9E00F627DC /* mapPinTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A7ECAEE2716AE9E00F627DC /* mapPinTest */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ECAEF2716AE9E00F627DC /* AppDelegate.swift */,
+				3A7ECAF12716AE9E00F627DC /* SceneDelegate.swift */,
+				3A7ECAF32716AE9E00F627DC /* ViewController.swift */,
+				3A99A519272BD307003849A5 /* MKMapView+Extention.swift */,
+				3A91AED5272294FF0004ADBA /* CustomAnnotationView.swift */,
+				3A7ECB032716BF4C00F627DC /* OpenWeatherData.swift */,
+				3A7ECAF52716AE9E00F627DC /* Main.storyboard */,
+				3A7ECAF82716AEA000F627DC /* Assets.xcassets */,
+				3A7ECAFA2716AEA000F627DC /* LaunchScreen.storyboard */,
+				3A7ECAFD2716AEA000F627DC /* Info.plist */,
+			);
+			path = mapPinTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A7ECAEB2716AE9E00F627DC /* mapPinTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7ECB002716AEA000F627DC /* Build configuration list for PBXNativeTarget "mapPinTest" */;
+			buildPhases = (
+				3A7ECAE82716AE9E00F627DC /* Sources */,
+				3A7ECAE92716AE9E00F627DC /* Frameworks */,
+				3A7ECAEA2716AE9E00F627DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mapPinTest;
+			productName = mapPinTest;
+			productReference = 3A7ECAEC2716AE9E00F627DC /* mapPinTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A7ECAE42716AE9D00F627DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3A7ECAEB2716AE9E00F627DC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A7ECAE72716AE9D00F627DC /* Build configuration list for PBXProject "mapPinTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A7ECAE32716AE9D00F627DC;
+			productRefGroup = 3A7ECAED2716AE9E00F627DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A7ECAEB2716AE9E00F627DC /* mapPinTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A7ECAEA2716AE9E00F627DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7ECAFC2716AEA000F627DC /* LaunchScreen.storyboard in Resources */,
+				3A7ECAF92716AEA000F627DC /* Assets.xcassets in Resources */,
+				3A7ECAF72716AE9E00F627DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A7ECAE82716AE9E00F627DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7ECB042716BF4C00F627DC /* OpenWeatherData.swift in Sources */,
+				3A91AED6272294FF0004ADBA /* CustomAnnotationView.swift in Sources */,
+				3A7ECAF42716AE9E00F627DC /* ViewController.swift in Sources */,
+				3A7ECAF02716AE9E00F627DC /* AppDelegate.swift in Sources */,
+				3A99A51A272BD307003849A5 /* MKMapView+Extention.swift in Sources */,
+				3A7ECAF22716AE9E00F627DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A7ECAF52716AE9E00F627DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7ECAF62716AE9E00F627DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A7ECAFA2716AEA000F627DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7ECAFB2716AEA000F627DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A7ECAFE2716AEA000F627DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A7ECAFF2716AEA000F627DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A7ECB012716AEA000F627DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mapPinTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.mapPinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A7ECB022716AEA000F627DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mapPinTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.mapPinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A7ECAE72716AE9D00F627DC /* Build configuration list for PBXProject "mapPinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7ECAFE2716AEA000F627DC /* Debug */,
+				3A7ECAFF2716AEA000F627DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7ECB002716AEA000F627DC /* Build configuration list for PBXNativeTarget "mapPinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7ECB012716AEA000F627DC /* Debug */,
+				3A7ECB022716AEA000F627DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A7ECAE42716AE9D00F627DC /* Project object */;
+}
